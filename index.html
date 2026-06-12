@@ -2,157 +2,125 @@
 <html lang="pt-BR">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Convite Digital</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    
-<title>Convite Digital</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<style>
+        body {
+            background: #F6CAC4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 0;
+            margin: 0;
+        }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 1080px;
+            aspect-ratio: 9 / 16;
+        }
 
-body{
+        .container img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+        }
 
-    background:#F6CAC4;
+        .botao {
+            position: absolute;
+            background: transparent;
+            cursor: pointer;
+            /* Remove o outline azul ao clicar (opcional) */
+            outline: none;
+            /* Garante que o link ocupe toda a área definida */
+            display: block;
+        }
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
+        /* Responsividade para telas pequenas (celular) */
+        @media (max-width: 768px) {
+            .botao {
+                /* Ajustes extras para toque no celular */
+                touch-action: manipulation;
+            }
+        }
 
-    min-height: 100vh; /* Altura mínima = 100% da viewport (tela) */
-    display: flex;
-    flex-direction: column;
-
-}
-
-.container{
-
-    position:relative;
-
-    width:100%;
-    max-width:1080px;
-
-    aspect-ratio:9/16;
-
-}
-
-.container img{
-
-    width:100%;
-    height:100%;
-
-    display:block;
-
-}
-
-.botao{
-
-    position:absolute;
-
-    /* DURANTE O AJUSTE */
-    background:transparent;
-
-
-    /*
-    DEPOIS DE FINALIZAR TROQUE PARA:
-
-    background:transparent;
-
-    */
-
-    cursor:pointer;
-
-}
-
-</style>
-
+        /* Ajuste para telas muito pequenas (ex: iPhone SE) */
+        @media (max-width: 480px) {
+            .botao {
+                /* Mantém a área de clique mas evita sobreposição */
+                opacity: 0.9;
+            }
+        }
+    </style>
 </head>
 
 <body>
+    <div class="container">
+        <img src="convite.png" alt="Convite">
 
-<div class="container">
+        <!-- 
+            IMPORTANTE: 
+            Os valores de left, top, width, height agora usam % (porcentagem)
+            Isso faz o botão se reposicionar automaticamente em qualquer tela
+        -->
 
-<img src="convite.png" alt="Convite">
+        <!-- ========================== -->
+        <!-- BOTÃO LOCALIZAÇÃO (Google Maps) -->
+        <!-- ========================== -->
+        <a
+            class="botao"
+            href="https://maps.app.goo.gl/DfQTH5TzdPytGSN79"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="
+                left: 63%;      /* 680px / 1080px ≈ 63% */
+                top: 90%;       /* 1561px / 1733px (9/16 de 1080) ≈ 90% */
+                width: 12.35%;  /* 133.4px / 1080px ≈ 12.35% */
+                height: 11.27%; /* 195.33px / 1733px ≈ 11.27% */
+            ">
+        </a>
 
+        <!-- ========================== -->
+        <!-- BOTÃO WHATSAPP -->
+        <!-- ========================== -->
+        <a
+            class="botao"
+            href="https://wa.me/5511940351595?text=Confirmo%20minha%20presença.%20Serão%20*X*%20pessoas!"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="
+                left: 24.7%;    /* 267px / 1080px ≈ 24.7% */
+                top: 91.2%;     /* 1580px / 1733px ≈ 91.2% */
+                width: 13.6%;   /* 147px / 1080px ≈ 13.6% */
+                height: 10.15%; /* 175.85px / 1733px ≈ 10.15% */
+            ">
+        </a>
 
-<!-- ========================== -->
-<!-- LOCALIZAÇÃO -->
-<!-- ========================== -->
-
-<a
-
-class="botao"
-
-href="https://maps.app.goo.gl/DfQTH5TzdPytGSN79"
-
-target="_blank"
-
-style="
-
-left:680px;
-top:1561px;
-width:133.4px;
-height:195.33px;
-
-">
-
-</a>
-
-
-<!-- ========================== -->
-<!-- WHATSAPP -->
-<!-- ========================== -->
-
-<a
-
-class="botao"
-
-href="https://wa.me/5511940351595?text=Confirmo%20minha%20presença.%20Serão%20*X*%20pessoas!"
-
-target="_blank"
-
-style="
-
-left:267px;
-top:1580.48px;
-width:147px;
-height:175.85px;
-
-">
-
-</a>
-
-<!-- ========================== -->
-<!-- LISTA DE PRESENTES -->
-<!-- ========================== -->
-
-<a
-
-class="botao"
-
-href="COLE_AQUI_O_LINK"
-
-target="_blank"
-
-style="
-
-left:0px;
-top:0px;
-width:0px;
-height:0px;
-
-">
-
-</a>
-
-</div>
-
+        <!-- ========================== -->
+        <!-- BOTÃO LISTA DE PRESENTES -->
+        <!-- ========================== -->
+        <!-- 
+            Como você não tem o link, deixei esse botão oculto por enquanto.
+            Quando tiver o link, substitua e ajuste as porcentagens.
+        -->
+        <a
+            class="botao"
+            href="#"
+            target="_blank"
+            style="display: none;">
+        </a>
+    </div>
 </body>
 
 </html>
