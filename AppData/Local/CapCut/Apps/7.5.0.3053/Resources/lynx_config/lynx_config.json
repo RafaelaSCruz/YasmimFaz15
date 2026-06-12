@@ -1,0 +1,22 @@
+{
+  "credits_center": "videofusion://main/lynx?channel=image_lynx_videocutpc_credits_center&&bundle=template.js&&window_width=512&&window_height=707",
+  "image_lynx_videocutpc_subscription": "videofusion://main/lynx?channel=image_lynx_videocutpc_subscription&bundle=template.js&&window_width=480&&window_height=648",
+  "image_lynx_videocutpc_subscription_enus": "videofusion://main/lynx?channel=image_lynx_videocutpc_subscription&bundle=template.js&&window_width=800&&window_height=648",
+  "commerce_export_modal": "videofusion://main/lynx?channel=image_lynx_videocutpc_subscription_export&&bundle=template.js&&window_width=480&&window_height=600",
+  "image_lynx_videocutpc_subscription_manage": "videofusion://main/lynx?channel=image_lynx_videocutpc_subscription_manage&&bundle=template.js&&window_width=356&&window_height=590",
+  "commerce_aigc_purchase": "videofusion://main/lynx?channel=image_lynx_videocutpc_subscription_pay_modal&bundle=pages/aigc/template.js&&window_width=352&&window_height=220",
+  "digital_human_purchase": "videofusion://main/lynx?channel=image_lynx_videocutpc_subscription_pay_modal&bundle=pages/digital_human/template.js&&window_width=512&&window_height=718",
+  "digital_human_activate": "videofusion://main/lynx?channel=image_lynx_videocutpc_subscription_pay_modal&bundle=pages/digital_human/template.js&&window_width=352&&window_height=352",
+  "vicut_lynx_commerce_comp_popup": "videofusion://main/lynx?channel=vicut_lynx_commerce_comp_popup&&bundle=pages/comp_popup/template.js&&window_width=338&&window_height=166",
+  "global_home": "videofusion://main/lynx?channel=image_lynx_videocutpc_global&&bundle=template.js&&window_width=338&&window_height=203&&dynamic=1",
+  "remove_watermark": "videofusion://main/lynx?channel=image_lynx_videocutpc_subscription_pay_modal&bundle=pages/remove_watermark/template.js",
+  "image_lynx_videocutpc_subscription_teams": "videofusion://main/lynx?channel=image_lynx_videocutpc_subscription_teams&bundle=pages/teams_popup/template.js",
+  "image_lynx_videocutpc_subscription_teams_cashier": "videofusion://main/lynx?channel=image_lynx_videocutpc_subscription_teams&bundle=pages/cashier/template.js",
+  "image_lynx_videocutpc_subscription_trade_record": "videofusion://main/lynx?channel=image_lynx_videocutpc_subscription_trade_record&bundle=template.js",
+  "message_center": "videofusion://main/lynx?channel=image_lynx_videocutpc_message_center&bundle=template.js",
+  "feedback_detail": "videofusion://main/lynx?channel=image_lynx_videocutpc_message_center&bundle=pages/feedback_detail/template.js",
+  "image_lynx_videocutpc_restore_page": "videofusion://main/lynx?channel=image_lynx_videocutpc_restore_page&bundle=template.js&window_width=356&&window_height=522",
+  "image_lynx_videocutpc_modal": "videofusion://main/lynx?channel=image_lynx_videocutpc_modal&bundle=pages/commerce_splash_modal/template.js&&window_width=356&&window_height=486",
+  "commerce_export_tips": "videofusion://main/lynx?channel=image_lynx_videocutpc_modal&bundle=pages/editor_vip_benefit_popup/template.js&&window_width=356&&window_height=486",
+  "trade_record": "videofusion://main/lynx?channel=image_lynx_videocutpc_subscription_trade_record&&bundle=template.js&&window_width=356&&window_height=593&&dynamic=1"
+}

@@ -1,0 +1,10 @@
+{
+    "depend_resource_list": [
+        {
+            "resource_id": "6935356483945107982",
+            "source": 2,
+            "type": "system-fonts"
+        }
+    ],
+    "script_template_version": "1.0.0"
+}

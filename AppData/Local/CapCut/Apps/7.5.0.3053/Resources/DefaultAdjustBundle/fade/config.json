@@ -1,0 +1,14 @@
+{
+    "effect": {
+        "Link": [
+            {
+                "type": "AmazingFeature",
+                "zorder": 10000,
+                "path": "amazingfeature/"
+            }
+        ]
+    },
+    "name": "fade",
+    "alphaState": 2,
+    "version": "6.6.0"
+}

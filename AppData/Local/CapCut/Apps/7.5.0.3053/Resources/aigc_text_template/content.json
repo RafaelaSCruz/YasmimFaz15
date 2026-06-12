@@ -1,0 +1,99 @@
+{
+    "children": [
+        {
+            "anims": [],
+            "duration": 3,
+            "layout_params": {
+                "bottom_toBottomOf": "",
+                "fix_dimensionRatio": false,
+                "fix_height": true,
+                "fix_width": true,
+                "hCenter_toHCenterOf": "",
+                "left_toLeftOf": "",
+                "right_toRightOf": "",
+                "top_toTopOf": "",
+                "vCenter_toVCenterOf": ""
+            },
+            "lineFeedKind": 1,
+            "name": "2BB784E5-54DA-44BE-AE32-DC1EE1EDF061",
+            "order_in_layer": 2,
+            "original_size": [
+                275,
+                82.8125
+            ],
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "start_time": 0,
+            "text_params": {
+                "autoAdaptDpiEnabled": false,
+                "boldValue": 0.008,
+                "canvas": false,
+                "canvasColor": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "canvasCustomized": true,
+                "canvasOffsetCustomized": [
+                    0,
+                    0
+                ],
+                "canvasRoundCorner": false,
+                "canvasRoundRadiusScale": 0,
+                "canvasSplitPadding": 0.1,
+                "canvasSplitThreshold": 1000,
+                "canvasWHCustomized": [
+                    1,
+                    1
+                ],
+                "canvasWrapped": false,
+                "decorationOffset": 0.22,
+                "decorationWidth": 0.05,
+                "fallbackFontPathList": [],
+                "globalAlpha": 1,
+                "innerPadding": 0.2,
+                "italicDegree": 10,
+                "letterSpacing": 0,
+                "lineMaxWidth": -1,
+                "lineSpacing": 0.02,
+                "oneLineCutOff": false,
+                "richText": "",
+                "selectedColor": [
+                    0,
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.4000000059604645
+                ],
+                "shapeFlipX": false,
+                "shapeFlipY": false,
+                "shapePath": "",
+                "typeSettingAlign": 1,
+                "typeSettingKind": 0,
+                "version": "2"
+            },
+            "type": "text",
+            "visible": true,
+			"sdfTextAlpha": 0.5
+        }
+    ],
+    "root": {
+        "duration": 3,
+        "name": "rootWidget",
+        "preview_time": 1.0333333333333332
+    },
+    "type": "ScriptTemplate"
+}

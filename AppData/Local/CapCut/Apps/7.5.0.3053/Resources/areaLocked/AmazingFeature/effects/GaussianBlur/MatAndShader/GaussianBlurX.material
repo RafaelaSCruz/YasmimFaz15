@@ -1,0 +1,36 @@
+%YAML 1.1
+--- !Material &1
+name: GaussianBlurX
+guid: {a: 13781716014139158114, b: 11294101896176942261}
+xshader: {localId: 1, path: effects/GaussianBlur/MatAndShader/GaussianBlurX.xshader}
+properties:
+  __class: PropertySheet
+  name: GaussianBlurX
+  guid: {a: 6362505777753645869, b: 23157596262165671}
+  floatmap:
+    __class: Map
+    u_Angle: 0
+    u_Strength: 50
+  vec4map:
+    __class: Map
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    u_InputTex: {localId: 1, path: share://input.texture}
+  intmap:
+    __class: Map
+renderQueue: 1
+enabledMacros:
+  __class: Map
+  AE_AreaLightNum: !<str> 0
+  AE_DirLightNum: !<str> 0
+  AE_PointLightNum: !<str> 0
+  AE_SpotLightNum: !<str> 0
+  GLOWSAMPLE: 16
+mshaderPath: ""
+instanceCount: 0

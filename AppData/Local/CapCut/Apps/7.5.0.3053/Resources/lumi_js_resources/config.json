@@ -1,0 +1,37 @@
+{
+    "bALG_BACH_CONFIG": false,
+    "effect": {
+        "Link": [
+            {
+                "scriptPath": "js/feature/feature.js",
+                "type": "ScriptInfoSticker",
+                "zorder": 8010
+            }
+        ]
+    },
+    "resources": {
+        "featureBlit":
+            {
+                "relPath": "resources/featureBlit",
+                "type": "AmazingFeature"
+            },
+        "featureMask":
+            {
+                "relPath": "resources/featureMask",
+                "type": "AmazingFeature"
+            },
+        "featureBlend":
+            {
+                "relPath": "resources/featureBlend",
+                "type": "AmazingFeature"
+            },
+        "lumi_hub":
+            {
+                "relPath": "resources/lumi_hub",
+                "type": "InfoSticker"
+            }
+    },
+    "name": "lv_plugin_com.lv.template_gray-filter",
+    "version": "10.1.0",
+    "script_version":"1.0"
+}

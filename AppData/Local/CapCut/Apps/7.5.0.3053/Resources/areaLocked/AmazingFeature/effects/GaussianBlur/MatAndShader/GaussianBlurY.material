@@ -1,0 +1,36 @@
+%YAML 1.1
+--- !Material &1
+name: GaussianBlurY
+guid: {a: 5929245906072035917, b: 3199241463410008462}
+xshader: {localId: 1, path: effects/GaussianBlur/MatAndShader/GaussianBlurY.xshader}
+properties:
+  __class: PropertySheet
+  name: GaussianBlurY
+  guid: {a: 7732017412908595822, b: 7365281299911266223}
+  floatmap:
+    __class: Map
+    u_Angle: 90
+    u_Strength: 50
+  vec4map:
+    __class: Map
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    u_InputTex: {localId: 1, path: effects/GaussianBlur/rt/gaussianBlurMidRT.rt}
+  intmap:
+    __class: Map
+renderQueue: 1
+enabledMacros:
+  __class: Map
+  AE_AreaLightNum: !<str> 0
+  AE_DirLightNum: !<str> 0
+  AE_PointLightNum: !<str> 0
+  AE_SpotLightNum: !<str> 0
+  GLOWSAMPLE: 16
+mshaderPath: ""
+instanceCount: 0

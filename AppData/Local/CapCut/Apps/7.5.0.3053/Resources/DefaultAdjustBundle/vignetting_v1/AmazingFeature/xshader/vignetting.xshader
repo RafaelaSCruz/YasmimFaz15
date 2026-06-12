@@ -1,0 +1,79 @@
+%YAML 1.1
+--- !XShader &1
+name: !<str> vignetting/xshader
+guid: {a: 5783648744171078770, b: 14392870749507566270}
+renderQueue: 2000
+passes:
+  - __class: Pass
+    name: !<str> ""
+    guid: {a: 14576465401798981160, b: 13330468147484641465}
+    shaders:
+      __class: Map
+      gles2:
+        - {localId: 2}
+        - {localId: 3}
+    angleBinaryPrograms:
+      __class: Map
+    semantics:
+      __class: Map
+      position:
+        __class: VertexAttribType
+        value: POSITION
+      texcoord0:
+        __class: VertexAttribType
+        value: TEXCOORD0
+    clearColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    clearDepth: 1
+    clearType:
+      __class: CameraClearType
+      value: DONT
+    renderState:
+      __class: RenderState
+      name: !<str> ""
+      guid: {a: 2111916308857660113, b: 8006167368567535758}
+      depthstencil:
+        __class: DepthStencilState
+        name: !<str> ""
+        guid: {a: 6361318271367974814, b: 17544431963117316265}
+        depthTestEnable: false
+        depthTestEnableName: !<str> ""
+        depthCompareOp:
+          __class: CompareOp
+          value: LESS
+        depthCompareOpName: !<str> ""
+        depthWriteEnable: false
+        stencilTestEnable: false
+        stencilTestEnableName: !<str> ""
+    useFBOTexture: false
+    useCameraRT: false
+    useFBOFetch: false
+    enableFBOFetch: false
+    isFullScreenShading: false
+    macrosMap:
+      __class: Map
+    preprocess: false
+    passType:
+      __class: PassType
+      value: NORMAL
+    lightMode:
+      __class: LightMode
+      value: NONE
+    clearMoment:
+      __class: PassClearMoment
+      value: CLEAR_BEFORE_RENDERING
+    instanceCount: 0
+    auslSourcePath: !<str> ""
+--- !Shader &2
+name: !<str> ""
+guid: {a: 9677423384230746397, b: 17758074329334442907}
+type:
+  __class: ShaderType
+  value: VERTEX
+sourcePath: !<str> xshader/vignetting.vert
+--- !Shader &3
+name: !<str> ""
+guid: {a: 18252476825578580382, b: 2204481810073016245}
+type:
+  __class: ShaderType
+  value: FRAGMENT
+sourcePath: !<str> xshader/vignetting.frag

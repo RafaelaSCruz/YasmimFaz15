@@ -1,0 +1,22 @@
+{
+	"ae_tool" : "AmazingEditor",
+	"bALG_BACH_CONFIG" : true,
+	"effect" : 
+	{
+		"Link" : 
+		[
+			{
+				"path" : "AmazingFeature_DilateErode/",
+				"type" : "AmazingFeature",
+				"zorder" : 1999
+			},
+			{
+				"path" : "AmazingFeature/",
+				"type" : "AmazingFeature",
+				"zorder" : 8011
+			}
+		]
+	},
+	"name" : "Editor_Sticker_Config_TAG_zbIdYdMdkd5jbCclcgcxUc8b67c6d",
+	"version" : "15.0.0"
+}

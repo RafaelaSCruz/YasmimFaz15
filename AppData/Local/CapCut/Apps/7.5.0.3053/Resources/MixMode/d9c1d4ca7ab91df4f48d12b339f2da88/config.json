@@ -1,0 +1,11 @@
+{
+    "effect": {
+        "Link": [
+            {
+                "type": "InfoSticker"
+            }
+        ]
+    },
+    "alphaState": 2,
+    "version": "5.7.0"
+}

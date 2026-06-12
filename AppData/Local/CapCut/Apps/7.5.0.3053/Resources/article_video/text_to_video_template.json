@@ -1,0 +1,175 @@
+{
+    "version": "1.0.0",
+    "text_to_video_template": [
+        {
+            "id": 1,
+            "text_styles": [
+                {
+                    "type": 0,
+                    "line_limit": 0,
+                    "line_count": 0,
+                    "text_material": {
+                        "normal_font_id": "3911606",
+                        "boe_font_id": "3911605",
+                        "font_size": 15,
+                        "font_color": "#ffffff"
+                    },
+                    "transform": {
+                        "x": 0,
+                        "y": 0.6544270833333333
+                    },
+                    "display_mode": 1
+                },
+                {
+                    "type": 1,
+                    "line_limit": 0,
+                    "line_count": 0,
+                    "text_material": {
+                        "normal_font_id": "3911606",
+                        "boe_font_id": "3911605",
+                        "font_size": 16.2,
+                        "font_color": "#ffffff"
+                    },
+                    "transform": {
+                        "x": 0,
+                        "y": 0.043229166666666666
+                    }
+                },
+                {
+                    "type": 2,
+                    "line_limit": 0,
+                    "line_count": 0,
+                    "text_material": {
+                        "normal_font_id": "3911606",
+                        "boe_font_id": "3911605",
+                        "font_size": 12,
+                        "font_color": "#ffffff"
+                    },
+                    "transform": {
+                        "x": 0,
+                        "y": -0.5711979166666666
+                    }
+                }
+            ],
+            "video_styles": [
+                {
+                    "type": 0,
+                    "entrance_animation": {
+                        "normal_effect_id": "17040345",
+                        "boe_effect_id": "17040344",
+                        "threshold": 2000000
+                    },
+                    "transform": {
+                        "x": 0,
+                        "y": -0.006093750000000024
+                    }
+                },
+                {
+                    "type": 1,
+                    "entrance_animation": null,
+                    "transform": {
+                        "x": 0,
+                        "y": -0.006093750000000024
+                    }
+                },
+                {
+                    "type": 2,
+                    "entrance_animation": null,
+                    "transform": {
+                        "x": 0,
+                        "y": -0.006093750000000024
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "text_styles": [
+                {
+                    "type": 0,
+                    "line_limit": 0,
+                    "line_count": 0,
+                    "text_material": {
+                        "normal_font_id": "3911606",
+                        "boe_font_id": "3911605",
+                        "font_size": 19.95,
+                        "font_color": "#ffffff",
+                        "border_color": "#000000",
+                        "border_width": 0.06
+                    },
+                    "transform": {
+                        "x": 0,
+                        "y": 0.6544270833333333
+                    },
+                    "display_mode": 0
+                },
+                {
+                    "type": 1,
+                    "line_limit": 0,
+                    "line_count": 0,
+                    "text_material": {
+                        "normal_font_id": "3911606",
+                        "boe_font_id": "3911605",
+                        "font_size": 8.4,
+                        "font_color": "#000000",
+                        "border_color": "#ffffff",
+                        "border_width": 0.06
+                    },
+                    "transform": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                {
+                    "type": 2,
+                    "line_limit": 0,
+                    "line_count": 0,
+                    "text_material": {
+                        "normal_font_id": "2196289",
+                        "boe_font_id": "2196288",
+                        "font_size": 5.85,
+                        "font_color": "#ffffff",
+                        "border_color": "#000000",
+                        "border_width": 0.06
+                    },
+                    "transform": {
+                        "x": 0,
+                        "y": -0.7719444444
+                    }
+                }
+            ],
+            "video_styles": [
+                {
+                    "type": 0,
+                    "entrance_animation": {
+                        "normal_effect_id": "17040345",
+                        "boe_effect_id": "17040344",
+                        "threshold": 2000000
+                    },
+                    "transform": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                {
+                    "type": 1,
+                    "entrance_animation": null,
+                    "transform": {
+                        "x": 0,
+                        "y": -0.07222222222,
+                        "scale_x": 0.8555555556,
+                        "scale_y": 0.8555555556
+                    }
+                },
+                {
+                    "type": 2,
+                    "entrance_animation": null,
+                    "transform": {
+                        "x": 0,
+                        "y": 0
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+%YAML 1.1
+--- !XShader &1
+name: GaussianBlurY/xshader
+guid: {a: 4417376460285377889, b: 5185456500181098415}
+renderQueue: 2000
+passes:
+  - __class: Pass
+    name: ""
+    guid: {a: 9530788993586505426, b: 1607007363551259802}
+    shaders:
+      __class: Map
+      gles2:
+        - {localId: 2}
+        - {localId: 3}
+    angleBinaryPrograms:
+      __class: Map
+    semantics:
+      __class: Map
+      position:
+        __class: VertexAttribType
+        value: POSITION
+      texcoord0:
+        __class: VertexAttribType
+        value: TEXCOORD0
+    clearColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    clearDepth: 1
+    clearType:
+      __class: CameraClearType
+      value: DONT
+    renderState:
+      __class: RenderState
+      name: ""
+      guid: {a: 8306082654851860237, b: 4957925781805299118}
+      depthstencil:
+        __class: DepthStencilState
+        name: ""
+        guid: {a: 6215416602959657406, b: 6436897477174617506}
+        depthTestEnable: false
+        depthTestEnableName: ""
+        depthCompareOp:
+          __class: CompareOp
+          value: LESS
+        depthCompareOpName: ""
+        depthWriteEnable: false
+        stencilTestEnable: false
+        stencilTestEnableName: ""
+    useFBOTexture: false
+    useCameraRT: false
+    useFBOFetch: false
+    isFullScreenShading: false
+    macrosMap:
+      __class: Map
+    preprocess: false
+    passType:
+      __class: PassType
+      value: NORMAL
+    lightMode:
+      __class: LightMode
+      value: NONE
+--- !Shader &2
+name: ""
+guid: {a: 1894055595692713843, b: 11163150929901912751}
+type:
+  __class: ShaderType
+  value: VERTEX
+sourcePath: effects/GaussianBlur/MatAndShader/GaussianBlur.vert
+--- !Shader &3
+name: ""
+guid: {a: 16232630141624419388, b: 6273378941057946753}
+type:
+  __class: ShaderType
+  value: FRAGMENT
+sourcePath: effects/GaussianBlur/MatAndShader/GaussianBlur.frag
+macros:
+  - GLOWSAMPLE

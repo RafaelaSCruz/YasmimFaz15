@@ -1,0 +1,166 @@
+2026-03-02 21:27:07.185409 -0300 (0x000020a0) [info] [CrashDump] Starting handler at C:/Program Files/4KDownload/4kvideodownloaderplus
+2026-03-02 21:27:07.485293 -0300 (0x000020a0) [info] [app_Gui] [BaseTranslator] Using locale pt_BR
+2026-03-02 21:27:07.485293 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Creating queue element:1
+2026-03-02 21:27:07.486346 -0300 (0x00003ea8) [info] [http] [HttpDownloaderImpl_0000000000000001] Start http downloader https://dl.4kdownload.com/app/settings/4kvideodownloaderplus.crash.json
+2026-03-02 21:27:07.493399 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Queue element:1 was created
+2026-03-02 21:27:07.493399 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Creating queue element:2
+2026-03-02 21:27:07.493399 -0300 (0x00003ea8) [info] [http] [HttpDownloaderImpl_0000000000000002] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.2.0227&ec=Application&ea=Run&el=Less%20than%2010&ev=2&cprop=%7B%22segment%22%3A7%7D&z=26828
+2026-03-02 21:27:07.494596 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Queue element:2 was created
+2026-03-02 21:27:07.494596 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Creating queue element:3
+2026-03-02 21:27:07.494596 -0300 (0x00003ea8) [info] [http] [HttpDownloaderImpl_0000000000000003] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.2.0227&ec=Application&ea=Platform&el=windows-64-10.0.26200&cprop=%7B%22platform%22%3A%22windows-64%22%2C%22platform_version%22%3A%2210.0.26200%22%2C%22run_platform%22%3A%22windows-64%22%7D&z=25329
+2026-03-02 21:27:07.495989 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Queue element:3 was created
+2026-03-02 21:27:07.502971 -0300 (0x000020a0) [info] [http] [HttpDownloaderImpl_0000000000000005] Start http downloader https://dl.4kdownload.com/app/settings/4kvideodownloaderplus.settings.json
+2026-03-02 21:27:07.505107 -0300 (0x000020a0) [info] [SoftwareUpdate] [Manager] appId=4kvideodownloaderplus, appName=4K Video Downloader+, appVersion=25.3.2.0227, appCast=https://dl.4kdownload.com/app/appcast/videodownloaderplus.xml
+2026-03-02 21:27:07.505107 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Creating queue element:4
+2026-03-02 21:27:07.505107 -0300 (0x00003a10) [info] [http] [HttpDownloaderImpl_0000000000000004] Start http downloader https://dl.4kdownload.com/app/advertisement/videodownloaderplus.xml
+2026-03-02 21:27:07.506114 -0300 (0x00003ea8) [info] [http] [HttpDownloaderImpl_0000000000000006] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.2.0227&ec=Update&ea=AutoUpdateEnabled&el=0&z=17305
+2026-03-02 21:27:07.506114 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Queue element:4 was created
+2026-03-02 21:27:07.507597 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Creating queue element:5
+2026-03-02 21:27:07.507597 -0300 (0x00003ea8) [info] [http] [HttpDownloaderImpl_0000000000000007] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.2.0227&ec=License&ea=State&el=free&cprop=%7B%22license%22%3A%22free%22%7D&z=28695
+2026-03-02 21:27:07.508784 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Queue element:5 was created
+2026-03-02 21:27:07.508784 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Creating queue element:6
+2026-03-02 21:27:07.508784 -0300 (0x00003ea8) [info] [http] [HttpDownloaderImpl_0000000000000008] Start http downloader https://dl.4kdownload.com/app/news/videodownloaderplus.json
+2026-03-02 21:27:07.509970 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Queue element:6 was created
+2026-03-02 21:27:07.515440 -0300 (0x000020a0) [warning] Qt WebEngine resources not found at C:/Program Files/4KDownload/4kvideodownloaderplus/resources. Trying parent directory... (:0, )
+2026-03-02 21:27:07.515440 -0300 (0x000020a0) [warning] Installed Qt WebEngine locales directory not found at location C:/Program Files/4KDownload/4kvideodownloaderplus/translations\qtwebengine_locales. Trying application directory... (:0, )
+2026-03-02 21:27:07.830102 -0300 (0x00001d7c) [info] [NetworkReachability] [Loop_0000008B76AFEFB0] network is reachable
+2026-03-02 21:27:09.722379 -0300 (0x00002a18) [info] Enter WorkerGraphManager::checkingThread
+2026-03-02 21:27:09.722379 -0300 (0x00003414) [info] Enter WorkerGraphManager::statisticsLogThread
+2026-03-02 21:27:09.770733 -0300 (0x000020a0) [info] [downloader] [HttpDownloaderQueue_0000021FC140EDE0] Set max active count 1 -> 4
+2026-03-02 21:27:09.770733 -0300 (0x000020a0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_0000021FC141A8D0] Set max active count 1 -> 4
+2026-03-02 21:27:09.770733 -0300 (0x000020a0) [info] [http] [HttpDownloaderImpl_0000000000000009] Start http downloader http://sa.openmedia.co:8018/getinfo
+2026-03-02 21:27:09.795647 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Creating queue element:7
+2026-03-02 21:27:09.795647 -0300 (0x00003ea8) [info] [http] [HttpDownloaderImpl_000000000000000A] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.2.0227&ec=Notification&ea=ClearOutdated&el=4&z=13928
+2026-03-02 21:27:09.796729 -0300 (0x000038ac) [info] EventDispatcher is started
+2026-03-02 21:27:09.796729 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Queue element:7 was created
+2026-03-02 21:27:09.819733 -0300 (0x000020a0) [info] Creating new io context pool '' with 4 thread(s)
+2026-03-02 21:27:09.820738 -0300 (0x00003b8c) [info] AsioContext::IoContext::threadFunc started
+2026-03-02 21:27:09.820738 -0300 (0x0000277c) [info] AsioContext::IoContext::threadFunc started
+2026-03-02 21:27:09.820738 -0300 (0x0000352c) [info] AsioContext::IoContext::threadFunc started
+2026-03-02 21:27:09.820738 -0300 (0x00002658) [info] AsioContext::IoContext::threadFunc started
+2026-03-02 21:27:09.821883 -0300 (0x00002658) [info] Cannot start subscription graph: subscriptions update is disabled
+2026-03-02 21:27:09.824898 -0300 (0x000020a0) [info] [downloader] [HttpDownloaderQueue_0000021FC140EDE0] Set max active count 4 -> 2
+2026-03-02 21:27:09.824898 -0300 (0x000020a0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_0000021FC141A8D0] Set max active count 4 -> 2
+2026-03-02 21:27:09.824898 -0300 (0x000020a0) [info] [http] [HttpDownloaderImpl_000000000000000B] Start http downloader http://sa.openmedia.co:8018/getinfo
+2026-03-02 21:27:09.840741 -0300 (0x000020a0) [info] [AuthView::logIn] Creating invisible window
+2026-03-02 21:27:09.840741 -0300 (0x000020a0) [info] [AuthView::logIn] Logging in at https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Dm%26hl%3Den%26next%3D%252F&hl=en
+2026-03-02 21:27:10.105568 -0300 (0x000020a0) [info] [From QtDebugMsg] opengl texture atlas dimensions: 512x512 (:0, )
+2026-03-02 21:27:10.105568 -0300 (0x000020a0) [info] [From QtDebugMsg] R/G/B/A Buffers:   8 8 8 8 (:0, )
+2026-03-02 21:27:10.105568 -0300 (0x000020a0) [info] [From QtDebugMsg] Depth Buffer:      24 (:0, )
+2026-03-02 21:27:10.105568 -0300 (0x000020a0) [info] [From QtDebugMsg] Stencil Buffer:    8 (:0, )
+2026-03-02 21:27:10.105568 -0300 (0x000020a0) [info] [From QtDebugMsg] Samples:           0 (:0, )
+2026-03-02 21:27:10.105568 -0300 (0x000020a0) [info] [From QtDebugMsg] GL_VENDOR:         Intel (:0, )
+2026-03-02 21:27:10.105568 -0300 (0x000020a0) [info] [From QtDebugMsg] GL_RENDERER:       Intel(R) UHD Graphics 620 (:0, )
+2026-03-02 21:27:10.105568 -0300 (0x000020a0) [info] [From QtDebugMsg] GL_VERSION:        4.6.0 - Build 31.0.101.2111 (:0, )
+2026-03-02 21:27:10.105568 -0300 (0x000020a0) [info] [From QtDebugMsg] GL_EXTENSIONS:    GL_3DFX_texture_compression_FXT1 GL_AMD_depth_clamp_separate GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_cl_event GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_robustness_isolation GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_separate_stencil GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_clip_volume_hint GL_EXT_compiled_vertex_array GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_object GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_memory_object GL_EXT_memory_object_win32 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_polygon_offset_clamp GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_semaphore GL_EXT_semaphore_win32 GL_EXT_separate_specular_color GL_EXT_shader_framebuffer_fetch GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_compression_s3tc GL_EXT_texture_edge_clamp GL_EXT_texture_env_add GL_EXT_texture_env_combine GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod_bias GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_IBM_texture_mirrored_repeat GL_INTEL_conservative_rasterization GL_INTEL_fragment_shader_ordering GL_INTEL_framebuffer_CMAA GL_INTEL_map_texture GL_INTEL_multi_rate_fragment_shader GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_shader_subgroup GL_KHR_shader_subgroup_arithmetic GL_KHR_shader_subgroup_ballot GL_KHR_shader_subgroup_basic GL_KHR_shader_subgroup_clustered GL_KHR_shader_subgroup_quad GL_KHR_shader_subgroup_shuffle GL_KHR_shader_subgroup_shuffle_relative GL_KHR_shader_subgroup_vote GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_ldr GL_NV_blend_square GL_NV_conditional_render GL_NV_primitive_restart GL_NV_texgen_reflection GL_SGIS_generate_mipmap GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_SUN_multi_draw_arrays GL_WIN_swap_hint WGL_EXT_swap_control (:0, )
+2026-03-02 21:27:10.106565 -0300 (0x000020a0) [info] [From QtDebugMsg] Max Texture Size: 16384 (:0, )
+2026-03-02 21:27:10.106565 -0300 (0x000020a0) [info] [From QtDebugMsg] Debug context:    false (:0, )
+2026-03-02 21:27:10.179370 -0300 (0x000030d4) [info] User external ip info: {"ip":"192.140.90.174"}
+2026-03-02 21:27:10.186354 -0300 (0x000020a0) [info] [downloader] [HttpDownloaderQueue_0000021FC140EDE0] Set max active count 2 -> 2
+2026-03-02 21:27:10.186354 -0300 (0x000020a0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_0000021FC141A8D0] Set max active count 2 -> 2
+2026-03-02 21:27:10.187350 -0300 (0x000020a0) [info] [http] [HttpDownloaderImpl_000000000000000C] Start http downloader http://sa.openmedia.co:8018/getinfo
+2026-03-02 21:27:10.187350 -0300 (0x000020a0) [info] [From QtDebugMsg] threaded render loop (:0, )
+2026-03-02 21:27:10.188347 -0300 (0x000020a0) [info] [From QtDebugMsg] Using sg animation driver (:0, )
+2026-03-02 21:27:10.188347 -0300 (0x000020a0) [info] [From QtDebugMsg] Animation Driver: using vsync: 16.67 ms (:0, )
+2026-03-02 21:27:10.222256 -0300 (0x000030d4) [info] User external ip info: {"ip":"192.140.90.174"}
+2026-03-02 21:27:10.615338 -0300 (0x000030d4) [info] User external ip info: {"ip":"192.140.90.174"}
+2026-03-02 21:27:14.987414 -0300 (0x000020a0) [warning] qrc:/VideoDownloader/View/openmedia/videodownloader/WinExtras.qml:26:13: Unable to assign [undefined] to bool (qrc:/VideoDownloader/View/openmedia/videodownloader/WinExtras.qml:26, )
+2026-03-02 21:27:15.006426 -0300 (0x000020a0) [info] Request to 'https://dl.4kdownload.com/app/news/videodownloaderplus.json' succeeded
+2026-03-02 21:27:15.006426 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Creating queue element:8
+2026-03-02 21:27:15.006426 -0300 (0x00003ea8) [info] [http] [HttpDownloaderImpl_000000000000000D] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.2.0227&ec=Request&ea=ConfigDownloadResult&el=https%3A%2F%2Fdl.4kdownload.com%2Fapp%2Fnews%2Fvideodownloaderplus.json%20%7C%20succeeded&z=8839
+2026-03-02 21:27:15.007922 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Queue element:8 was created
+2026-03-02 21:27:15.007922 -0300 (0x000020a0) [info] Request to 'https://dl.4kdownload.com/app/settings/4kvideodownloaderplus.settings.json' succeeded
+2026-03-02 21:27:15.007922 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Creating queue element:9
+2026-03-02 21:27:15.007922 -0300 (0x00003ea8) [info] [http] [HttpDownloaderImpl_000000000000000E] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.2.0227&ec=Request&ea=ConfigDownloadResult&el=https%3A%2F%2Fdl.4kdownload.com%2Fapp%2Fsettings%2F4kvideodownloaderplus.settings.json%20%7C%20succeeded&z=32651
+2026-03-02 21:27:15.009086 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Queue element:9 was created
+2026-03-02 21:27:15.100845 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Creating queue element:10
+2026-03-02 21:27:15.100845 -0300 (0x00003ea8) [info] [http] [HttpDownloaderImpl_000000000000000F] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.2.0227&ec=Application&ea=Resolution&el=1366x768&z=27318
+2026-03-02 21:27:15.100845 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Queue element:10 was created
+2026-03-02 21:27:15.100845 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Creating queue element:11
+2026-03-02 21:27:15.101842 -0300 (0x00003ea8) [info] [http] [HttpDownloaderImpl_0000000000000010] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.2.0227&ec=Application&ea=LogicalDPI&el=96&z=20432
+2026-03-02 21:27:15.101842 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Queue element:11 was created
+2026-03-02 21:27:15.139959 -0300 (0x00003f54) [info] [From QtDebugMsg] Using sg animation driver (:0, )
+2026-03-02 21:27:15.139959 -0300 (0x00003f54) [info] [From QtDebugMsg] Animation Driver: using vsync: 16.67 ms (:0, )
+2026-03-02 21:27:15.262002 -0300 (0x00003f54) [info] [From QtDebugMsg] opengl texture atlas dimensions: 1024x1024 (:0, )
+2026-03-02 21:27:16.263411 -0300 (0x000020a0) [info] [From QtDebugMsg] animation driver switched to timer mode (:0, )
+2026-03-02 21:27:17.508149 -0300 (0x000020a0) [info] [SoftwareUpdate] [Manager] checking
+2026-03-02 21:27:17.508149 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Creating queue element:12
+2026-03-02 21:27:17.508149 -0300 (0x00003ea8) [info] [http] [HttpDownloaderImpl_0000000000000011] Start http downloader https://dl.4kdownload.com/app/appcast/videodownloaderplus.xml
+2026-03-02 21:27:17.509302 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Queue element:12 was created
+2026-03-02 21:27:17.583509 -0300 (0x000020a0) [info] Request to 'https://dl.4kdownload.com/app/appcast/videodownloaderplus.xml' succeeded
+2026-03-02 21:27:17.583509 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Creating queue element:13
+2026-03-02 21:27:17.583509 -0300 (0x000020a0) [info] [SoftwareUpdate] [Manager] parsing
+2026-03-02 21:27:17.583509 -0300 (0x00003ea8) [info] [http] [HttpDownloaderImpl_0000000000000012] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.2.0227&ec=Request&ea=ConfigDownloadResult&el=https%3A%2F%2Fdl.4kdownload.com%2Fapp%2Fappcast%2Fvideodownloaderplus.xml%20%7C%20succeeded&z=8580
+2026-03-02 21:27:17.584513 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Queue element:13 was created
+2026-03-02 21:27:17.588788 -0300 (0x000020a0) [info] [SoftwareUpdate] [Manager] update available
+2026-03-02 21:27:18.420923 -0300 (0x000020a0) [warning] Deprecated API for given entry type. (https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.7wXXSfwwd78.es5.O/am=Kf8GAAB0ivz_L5kA_78BgAQIkOEyA00gMgAAAAAAAAAAaAEAgBoB/d=1/excm=_b,_tp,identifierview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlFShLq7Z-v6yyKckQhjX6j5FKhEhw/dti=1/m=_b,_tp:23, )
+2026-03-02 21:27:19.802719 -0300 (0x000020a0) [info] [AuthView::logIn] Accepting the invisible window. Logins status - 0
+2026-03-02 21:27:37.522948 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Creating queue element:14
+2026-03-02 21:27:37.522948 -0300 (0x00003ea8) [info] [http] [HttpDownloaderImpl_0000000000000013] Start http downloader https://dl.4kdownload.com/app/messages/videodownloaderplus.xml
+2026-03-02 21:27:37.524956 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Queue element:14 was created
+2026-03-02 21:27:37.635797 -0300 (0x000020a0) [info] Request to 'https://dl.4kdownload.com/app/messages/videodownloaderplus.xml' succeeded
+2026-03-02 21:27:37.635797 -0300 (0x000020a0) [info] [Feedback] [MessageCenter] extracting messages
+2026-03-02 21:27:37.635797 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Creating queue element:15
+2026-03-02 21:27:37.635797 -0300 (0x00003ea8) [info] [http] [HttpDownloaderImpl_0000000000000014] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.2.0227&ec=Request&ea=ConfigDownloadResult&el=https%3A%2F%2Fdl.4kdownload.com%2Fapp%2Fmessages%2Fvideodownloaderplus.xml%20%7C%20succeeded&cprop=%7B%22login%22%3A%22-youtube%22%7D&z=30117
+2026-03-02 21:27:37.637632 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Queue element:15 was created
+2026-03-02 21:27:37.657518 -0300 (0x000020a0) [info] [Feedback] [MessageCenter] extracted 1 messages
+2026-03-02 21:27:37.755333 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Creating queue element:16
+2026-03-02 21:27:37.755333 -0300 (0x00003ea8) [info] [http] [HttpDownloaderImpl_0000000000000015] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.2.0227&ec=Notification&ea=Show&el=dd8736a9-adb1-4349-bc2d-6908401b2b44%3ANew%20Update%20Required%20to%20Restore%20YouTube%20Downloads%7Cpinned&z=11385
+2026-03-02 21:27:37.756331 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Queue element:16 was created
+2026-03-02 21:27:48.600503 -0300 (0x000020a0) [info] [From QtDebugMsg] Using sg animation driver (:0, )
+2026-03-02 21:27:48.600503 -0300 (0x000020a0) [info] [From QtDebugMsg] animation driver switched to vsync mode (:0, )
+2026-03-02 21:27:50.734210 -0300 (0x000020a0) [info] [From QtDebugMsg] animation driver switched to timer mode (:0, )
+2026-03-02 21:27:55.718168 -0300 (0x000020a0) [info] [From QtDebugMsg] Using sg animation driver (:0, )
+2026-03-02 21:27:55.718168 -0300 (0x000020a0) [info] [From QtDebugMsg] animation driver switched to vsync mode (:0, )
+2026-03-02 21:27:56.340579 -0300 (0x000020a0) [info] [From QtDebugMsg] animation driver switched to timer mode (:0, )
+2026-03-02 21:28:08.077550 -0300 (0x00001d7c) [info] [NetworkReachability] [Loop_0000008B76AFEFB0] network is reachable
+2026-03-02 21:29:08.304158 -0300 (0x00001d7c) [info] [NetworkReachability] [Loop_0000008B76AFEFB0] network is reachable
+2026-03-02 21:29:40.125170 -0300 (0x000020a0) [info] [SoftwareUpdate] [Manager] downloading
+2026-03-02 21:29:40.125170 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Creating queue element:17
+2026-03-02 21:29:40.125170 -0300 (0x00003ea8) [info] [http] [HttpDownloaderImpl_0000000000000016] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.2.0227&ec=Update&ea=Requested&el=From%2025.3.2.0227%20to%2025.3.4.0241&z=17279
+2026-03-02 21:29:40.126168 -0300 (0x00003ea8) [info] [http] [HttpRequestsPerformerQueueImpl_0000021FC1421F90] Queue element:17 was created
+2026-03-02 21:29:40.132152 -0300 (0x000020a0) [info] [SoftwareUpdate] [Manager] update path C:/Users/rafin/AppData/Roaming/4kdownload.com/4K Video Downloader+/4K Video Downloader+/SoftwareUpdate/645fd0ed-84dd-48d8-b100-4ac96cd7dc2d
+2026-03-02 21:29:40.132152 -0300 (0x000020a0) [info] [http] [HttpDownloaderImpl_0000000000000017] Start http downloader https://dl.4kdownload.com/app/4kvideodownloaderplus_25.3.4_x64_update_windows.7z?source=appcast
+2026-03-02 21:29:45.193184 -0300 (0x000020a0) [info] [From QtDebugMsg] Using sg animation driver (:0, )
+2026-03-02 21:29:45.193184 -0300 (0x000020a0) [info] [From QtDebugMsg] animation driver switched to vsync mode (:0, )
+2026-03-02 21:29:45.731744 -0300 (0x000020a0) [info] [From QtDebugMsg] animation driver switched to timer mode (:0, )
+2026-03-02 21:29:54.382816 -0300 (0x000030d4) [info] [SoftwareUpdate] [Manager] downloaded hash 59814b4e1603ca0311ad1745d887190e
+2026-03-02 21:29:54.383473 -0300 (0x000030d4) [info] [SoftwareUpdate] [Manager] expected hash f084984662a7750e07f6e1e346f44a0d-16
+2026-03-02 21:29:54.383473 -0300 (0x000020a0) [info] [SoftwareUpdate] [Manager] extracting
+2026-03-02 21:29:54.384599 -0300 (0x000020a0) [info] [SoftwareUpdate] [Manager] decompressDirectory: C:/Users/rafin/AppData/Roaming/4kdownload.com/4K Video Downloader+/4K Video Downloader+/SoftwareUpdate/4db06964-4303-4779-b151-e6a714fc2c10
+2026-03-02 21:30:08.549966 -0300 (0x00001d7c) [info] [NetworkReachability] [Loop_0000008B76AFEFB0] network is reachable
+2026-03-02 21:30:27.500053 -0300 (0x000020a0) [info] [SoftwareUpdate] [Manager] extract completed
+2026-03-02 21:31:08.813534 -0300 (0x00001d7c) [info] [NetworkReachability] [Loop_0000008B76AFEFB0] network is reachable
+2026-03-02 21:32:09.052209 -0300 (0x00001d7c) [info] [NetworkReachability] [Loop_0000008B76AFEFB0] network is reachable
+2026-03-02 21:33:09.609706 -0300 (0x00001d7c) [info] [NetworkReachability] [Loop_0000008B76AFEFB0] network is reachable
+2026-03-02 21:33:23.016562 -0300 (0x000020a0) [info] [From QtDebugMsg] Using sg animation driver (:0, )
+2026-03-02 21:33:23.016562 -0300 (0x000020a0) [info] [From QtDebugMsg] animation driver switched to vsync mode (:0, )
+2026-03-02 21:33:23.238707 -0300 (0x000020a0) [info] [From QtDebugMsg] animation driver switched to timer mode (:0, )
+2026-03-02 21:33:23.259019 -0300 (0x000020a0) [info] [From QtDebugMsg] Using sg animation driver (:0, )
+2026-03-02 21:33:23.259019 -0300 (0x000020a0) [info] [From QtDebugMsg] animation driver switched to vsync mode (:0, )
+2026-03-02 21:33:23.770620 -0300 (0x000020a0) [info] [SoftwareUpdate] [Manager] installing
+2026-03-02 21:33:23.770620 -0300 (0x000020a0) [info] [SoftwareUpdate] [Manager] directory: C:/Users/rafin/AppData/Roaming/4kdownload.com/4K Video Downloader+/4K Video Downloader+/SoftwareUpdate/4db06964-4303-4779-b151-e6a714fc2c10
+2026-03-02 21:33:23.771895 -0300 (0x000020a0) [info] [SoftwareUpdate] [Manager] shell commands: "C:/Users/rafin/AppData/Roaming/4kdownload.com/4K Video Downloader+/4K Video Downloader+/SoftwareUpdate/4db06964-4303-4779-b151-e6a714fc2c10/4kvideodownloaderplus\4kvideodownloaderplus.exe" --suinstall="C:/Program Files/4KDownload/4kvideodownloaderplus" 
+2026-03-02 21:33:23.772898 -0300 (0x00003ea8) [info] [http] [QueueHandlingThread_0000021FC1421F90] finishing
+2026-03-02 21:33:23.772898 -0300 (0x00003ea8) [info] [http] [QueueHandlingThread_0000021FC1421F90] finished
+2026-03-02 21:33:23.772898 -0300 (0x000019b0) [info] [http] [NotificationHandlingThread_0000021FC1421F90] finishing
+2026-03-02 21:33:23.772898 -0300 (0x000019b0) [info] [http] [NotificationHandlingThread_0000021FC1421F90] finished
+2026-03-02 21:33:23.784309 -0300 (0x000020a0) [info] WorkerGraphManager is stopping
+2026-03-02 21:33:23.784309 -0300 (0x00002a18) [info] Finished WorkerGraphManager::checkingThread
+2026-03-02 21:33:23.784631 -0300 (0x00003414) [info] Finished WorkerGraphManager::statisticsLogThread
+2026-03-02 21:33:23.784631 -0300 (0x000020a0) [info] WorkerGraphManager is stopped
+2026-03-02 21:33:23.785629 -0300 (0x000038ac) [info] EventDispatcher is finishing
+2026-03-02 21:33:23.785629 -0300 (0x000038ac) [info] EventDispatcher is finished
+2026-03-02 21:33:23.785629 -0300 (0x00002658) [info] AsioContext::IoContext::threadFunc finished
+2026-03-02 21:33:23.786629 -0300 (0x0000352c) [info] AsioContext::IoContext::threadFunc finished
+2026-03-02 21:33:23.786629 -0300 (0x0000277c) [info] AsioContext::IoContext::threadFunc finished
+2026-03-02 21:33:23.787622 -0300 (0x00003b8c) [info] AsioContext::IoContext::threadFunc finished
+2026-03-02 21:33:23.791011 -0300 (0x00003a78) [info] [SimpleExecutionQueue] [QueueHandlingThread_0000021FC141A8D0] finishing
+2026-03-02 21:33:23.791011 -0300 (0x00003a78) [info] [SimpleExecutionQueue] [QueueHandlingThread_0000021FC141A8D0] finished
+2026-03-02 21:33:23.792090 -0300 (0x00001d50) [info] [SimpleExecutionQueue] [NotificationHandlingThread_0000021FC141A8D0] finishing
+2026-03-02 21:33:23.792090 -0300 (0x00001d50) [info] [SimpleExecutionQueue] [NotificationHandlingThread_0000021FC141A8D0] finished
+2026-03-02 21:33:23.792400 -0300 (0x00003628) [info] [downloader] [QueueHandlingThread_0000021FC140EDE0] finishing
+2026-03-02 21:33:23.792400 -0300 (0x00003628) [info] [downloader] [QueueHandlingThread_0000021FC140EDE0] finished
+2026-03-02 21:33:23.792400 -0300 (0x00003edc) [info] [downloader] [NotificationHandlingThread_0000021FC140EDE0] finishing
+2026-03-02 21:33:23.792400 -0300 (0x00003edc) [info] [downloader] [NotificationHandlingThread_0000021FC140EDE0] finished
+2026-03-02 21:33:24.672304 -0300 (0x000020a0) [info] [From QtDebugMsg] animation driver switched to timer mode (:0, )

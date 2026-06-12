@@ -1,0 +1,64 @@
+{
+    "name": "gpu driver bug list",
+    "entries": [{
+            "id": 1,
+            "description": "dx11 can crash, switch dx9",
+            "cr_bugs": [],
+            "comment": "HD 630,HD 4400,HD 4600,HD 5000",
+            "vendor_id": ["0x8086"],
+            "device_id": ["0x041E", "0x0412", "0x0416", "0x0A26", "0x5912", "0x591B"],
+            "features": [
+                "disable_d3d11"
+            ],
+            "app_version": {
+                "op": ">=",
+                "value": "2.9.5.0"
+            }
+        },
+        {
+            "id": 2,
+            "description": "dx11 can crash, switch dx9",
+            "cr_bugs": [],
+            "comment": "HD 630,HD 4400,HD 4600,HD 5000",
+            "vendor_id": ["0x8086"],
+            "device_id": ["0x041E", "0x0412", "0x0416", "0x0A26", "0x5912", "0x591B"],
+            "features": [
+                "disable_d3d11_video_decoder"
+            ],
+            "app_version": {
+                "op": ">=",
+                "value": "2.9.5.0"
+            }
+        },
+        {
+            "id": 3,
+            "description": "dx11 can crash, switch dx9",
+            "cr_bugs": [],
+            "comment": "NVIDIA Quadro P620, GT 630",
+            "vendor_id": ["0x10DE"],
+            "device_id": ["0xOF00", "0x1CB6"],
+            "features": [
+                "disable_d3d11"
+            ],
+            "app_version": {
+                "op": ">=",
+                "value": "2.9.5.0"
+            }
+        },
+        {
+            "id": 4,
+            "description": "dx11 can crash, switch dx9",
+            "cr_bugs": [],
+            "comment": "NVIDIA Quadro P620, GT 630",
+            "vendor_id": ["0x10DE"],
+            "device_id": ["0xOF00", "0x1CB6"],
+            "features": [
+                "disable_d3d11_video_decoder"
+            ],
+            "app_version": {
+                "op": ">=",
+                "value": "2.9.5.0"
+            }
+        }
+    ]
+}

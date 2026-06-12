@@ -1,0 +1,140 @@
+[
+    {
+        "ClassName": "SeekModeScript",
+        "Super": "ScriptComponent",
+        "FilePath": "lua/SeekModeScript.lua",
+        "FileAbsPath": "/Users/yyb/Downloads/\u5173\u952e\u5e27/AmazingFeature/lua/SeekModeScript.lua",
+        "Properties": [
+            {
+                "VarName": "position",
+                "VarType": "Vector3f",
+                "Comment": ""
+            },
+            {
+                "VarName": "rotation",
+                "VarType": "Vector3f",
+                "Comment": ""
+            },
+            {
+                "VarName": "scale",
+                "VarType": "Vector3f",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "seekToTime",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onEvent",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "GaussianBlurLayerScript",
+        "Super": "ScriptComponent",
+        "FilePath": "effects/GaussianBlur/lua/GaussianBlurLayerScript.lua",
+        "FileAbsPath": "/Users/yyb/Downloads/\u5173\u952e\u5e27/AmazingFeature/effects/GaussianBlur/lua/GaussianBlurLayerScript.lua",
+        "Properties": [
+            {
+                "VarName": "Intensity",
+                "VarType": "Double",
+                "Comment": ""
+            },
+            {
+                "VarName": "Blurred_Direction",
+                "VarType": "string[UI(Option={\"Horizontal",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Option",
+                                "RawValue": "",
+                                "Values": [
+                                    "Horizontal and Vertical",
+                                    "Horizontal",
+                                    "Vertical"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [
+                    {
+                        "ParaName": "comp",
+                        "ParaType": "Component",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [
+                    {
+                        "ParaName": "comp",
+                        "ParaType": "Component",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "deltaTime",
+                        "ParaType": "Double",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onEvent",
+                "Params": [
+                    {
+                        "ParaName": "comp",
+                        "ParaType": "Component",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "event",
+                        "ParaType": "Event",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    }
+]

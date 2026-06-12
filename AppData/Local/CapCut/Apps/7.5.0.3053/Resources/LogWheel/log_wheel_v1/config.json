@@ -1,0 +1,15 @@
+{
+    "effect": {
+        "Link": [
+            {
+                "path": "Wheel/",
+                "type": "AmazingFeature",
+                "zorder": 5012
+            }
+        ],
+        "exclusiveScene": []
+    },
+    "name": "2021_04_14_16_32_48_86d025b011earwq8facde48001122",
+    "alphaState": 2,
+    "version": "9.5.0"
+}

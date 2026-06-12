@@ -1,0 +1,14 @@
+{
+  "socketPath": "\\\\.\\pipe\\mcp-876d4ac2-f655-467e-8c4c-e8bd9d430cb3.sock",
+  "scheme": "pipe",
+  "headers": {
+    "Authorization": "Nonce cc48c928-a707-4c5b-961b-2b68c5c83f2b"
+  },
+  "pid": 10396,
+  "ideName": "Visual Studio Code",
+  "timestamp": 1781283589005,
+  "workspaceFolders": [
+    "c:\\Users\\rafin\\OneDrive\\Área de Trabalho\\Atelier M\\Convite Yasmim"
+  ],
+  "isTrusted": true
+}

@@ -1,0 +1,18 @@
+{
+    "setting":
+    {
+        "effect_adjust_params":
+        [
+            {
+                "default": 1.0,
+                "effect_key": "effects_adjust_filter",
+                "max": 1.0,
+                "min": 0.0 
+            },
+            {
+                "default": 0.0,
+                "effect_key": "effects_colormigration_target_path"
+            }
+        ]
+    }
+}

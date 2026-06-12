@@ -1,0 +1,37 @@
+%YAML 1.1
+--- !Material &1
+name: ""
+guid: {a: 17170486644306805341, b: 2645853556427807899}
+xshader: {localId: 1, path: xshader/result.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 5570712236306772231, b: 407676059287548860}
+  floatmap:
+    __class: Map
+    u_alpha: 1
+  vec4map:
+    __class: Map
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    inputImageTexture: {localId: 1, path: effects/GaussianBlur/rt/gaussianBlurOutputRT.rt}
+    oriTex: {localId: 1, path: share://input.texture}
+  intmap:
+    __class: Map
+    inputHeight: 1280
+    inputWidth: 720
+renderQueue: 1
+enabledMacros:
+  __class: Map
+  AE_AreaLightNum: !<str> 0
+  AE_DirLightNum: !<str> 0
+  AE_PointLightNum: !<str> 0
+  AE_SpotLightNum: !<str> 0
+mshaderPath: ""
+instanceCount: 0

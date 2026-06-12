@@ -1,0 +1,27 @@
+{
+    "bALG_BACH_CONFIG": false,
+    "effect": {
+        "Link": [
+            {
+                "scriptPath": "js/video/video.js",
+                "type": "ScriptInfoSticker",
+                "zorder": 8010
+            }
+        ]
+    },
+    "resources": {
+        "featureMask":
+            {
+                "relPath": "resources/featureMask",
+                "type": "AmazingFeature"
+            },
+        "lumi_hub":
+            {
+                "relPath": "resources/lumi_hub",
+                "type": "InfoSticker"
+            }
+    },
+    "name": "lv_plugin_com.lv.template_gray-filter",
+    "version": "10.1.0",
+    "script_version":"1.0"
+}

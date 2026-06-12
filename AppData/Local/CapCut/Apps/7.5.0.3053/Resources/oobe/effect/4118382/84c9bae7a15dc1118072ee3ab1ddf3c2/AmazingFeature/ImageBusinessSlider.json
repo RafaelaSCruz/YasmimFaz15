@@ -1,0 +1,23 @@
+{
+	"ImageBusinessSlider" : 
+	{
+		"LV" : 
+		{
+			"intensity" : 
+			{
+				"materialValue" : null,
+				"sliderIntensity" : 100.0
+			},
+			"number" : 
+			{
+				"materialValue" : null,
+				"sliderIntensity" : 80.0
+			},
+			"speed" : 
+			{
+				"materialValue" : null,
+				"sliderIntensity" : 50.0
+			}
+		}
+	}
+}

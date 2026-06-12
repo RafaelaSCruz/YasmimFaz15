@@ -1,0 +1,16 @@
+{
+	"ae_tool" : "AmazingEditor",
+	"bALG_BACH_CONFIG" : false,
+	"effect" : 
+	{
+        "Link" : [
+            {
+                "path": "AmazingFeature_blit/",
+                "type": "AmazingFeature",
+                "zorder": 100
+            }
+        ]
+	},
+	"name" : "76D57C3E-2613-4F50-9D36-jbIbldBdCc5mbKbIc5cld3bEcmcznts-noskin",
+	"version" : "16.4.0"
+}

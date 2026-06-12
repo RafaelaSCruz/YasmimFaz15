@@ -1,0 +1,18 @@
+{
+	"ae_tool" : "AmazingEditor",
+	"bALG_BACH_CONFIG" : true,
+	"effect" : 
+	{
+		"Link": [
+            {
+                "type": "AmazingFeature",
+                "zorder": 10000,
+                "path": "amazingfeature/"
+            }
+        ],
+		"forceRender": true
+	},
+	"js_path" : "Feature.js",
+	"name" : "color_migration_select_target",
+	"version" : "10.1.0"
+}

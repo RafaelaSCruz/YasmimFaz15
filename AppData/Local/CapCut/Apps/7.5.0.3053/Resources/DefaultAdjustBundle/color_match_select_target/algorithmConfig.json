@@ -1,0 +1,45 @@
+{
+    "version": "1.0",
+    "mode": 2,
+    "nodes":	[{
+		"name": "blit_0",
+            "type": "blit",
+            "config": {
+                "keyMaps": {
+                    "intParam": {
+                        "gpu_mode": 1
+                    },
+                    "floatParam": {},
+                    "stringParam": {
+                        "alg_tag": "unmergeable"
+                    },
+                    "pathParam": {}
+                }
+            }
+		}, {
+			"name": "general_lens_0",
+			"type": "general_lens",
+			"config": {
+				"keyMaps": {
+					"intParam": {
+						"colormatch_feature_type": 1
+					},
+					"floatParam": {
+					},
+					"stringParam": {
+						"name": "lensii_colormatch_feature_0",
+						"general_lens_alg_name": "lensii_colormatch_feature"
+					},
+					"pathParam": {
+					}
+				}
+			}
+		}
+	],
+	"links":	[{
+			"fromNode":	"blit_0",
+			"fromIndex":	0,
+			"toNode":	"general_lens_0",
+			"toIndex":	0
+		}]
+}

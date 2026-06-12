@@ -1,0 +1,22 @@
+{
+  "developer": {
+    "author": "cuiminghui.1"
+  },
+  "plugin": {
+    "base": {
+      "id": "com.lv.intlcrop",
+      "name": "SmartCrop",
+      "version": "0.0.1",
+      "compatible": ">= 0.0.1",
+      "description": "SmartCrop"
+    },
+    "sdk": {
+      "minVersion": "0.0.1"
+    }
+  },
+  "ui": {
+    "type": "dialog"
+  },
+  "permissions": [],
+  "permission_descriptions": {}
+}

@@ -1,0 +1,71 @@
+{
+    "version": "1.0",
+    "mode": 2,
+    "nodes": [
+        {
+            "name": "blit_0",
+            "type": "texture_blit",
+            "config": {
+                "size": {
+                    "width": 360,
+                    "height": 640
+                }
+            }
+        },
+        {
+            "name": "script_0",
+            "type": "script",
+            "config": {
+                "keyMaps": {
+                    "intParam": {
+                    },
+                    "floatParam": {
+                    },
+                    "pathParam": {
+                    },
+                    "stringParam": {
+                        "model_name": "mask_post_process"
+                    }
+                }
+            }
+        }
+    ],
+    "links": [
+        {
+            "fromNode": "blit_0",
+            "fromIndex": 0,
+            "toNode": "script_0",
+            "toIndex": 0
+        }
+    ],
+    "extra": {
+        "input": [
+            {
+                "name": "src_data_0",
+                "inputType": "IMAGE_BUFFER",
+                "dataSrc": "video_input"
+            }
+        ],
+        "output": [
+            {
+                "name": "script_0",
+                "algorithmType": "script",
+                "outputIndex": 0,
+                "usage": "xxx"
+            }
+        ],
+        "param": [
+            {
+                "name": "corrosion_coefficient",
+                "node": "script_0",
+                "key": "corrosion_coefficient",
+                "type": 1
+            },{
+                "name": "blur_coefficient",
+                "node": "script_0",
+                "key": "blur_coefficient",
+                "type": 1
+            }
+        ]
+    }
+}

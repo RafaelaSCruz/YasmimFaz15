@@ -1,0 +1,224 @@
+{
+    "version": "1.0",
+    "mode": 2,
+    "nodes": [
+        {
+            "name": "blit_0",
+            "type": "texture_blit",
+            "config": {
+                "size": {
+                    "width": 512,
+                    "height": 512
+                }
+            }
+        },
+        {
+            "name": "face_0",
+            "type": "face",
+            "config": {
+                "keyMaps": {
+                    "intParam": {
+                        "face_detect_mode": 262144,
+                        "face_detect_ability": 1
+                    },
+                    "floatParam": {},
+                    "stringParam": {
+                        "face_base_model_key": "tt_fsnew_base_jianying"
+                    }
+                }
+            }
+        },
+        {
+            "name": "ToTensor",
+            "type": "nh_convert_to_tensor",
+            "config": {
+                "keyMaps": {
+                    "intParam": {},
+                    "floatParam": {},
+                    "stringParam": {}
+                }
+            }
+        },
+        {
+            "name": "Inference",
+            "type": "nh_inference",
+            "config": {
+                "keyMaps": {
+                    "intParam": {
+                        "num_thread": 2,
+                        "forward_type": 0
+                    },
+                    "floatParam": {},
+                    "stringParam": {
+                        "model_name": "nodehub_image_saliency"
+                    }
+                }
+            }
+        },
+        {
+            "name": "StyleTransferPostProcess",
+            "type": "nh_style_transfer_post_process",
+            "config": {
+                "keyMaps": {
+                    "intParam": {
+                        "data_convert_rtype": 0
+                    },
+                    "floatParam": {
+                        "data_convert_alpha": 255,
+                        "data_convert_beta": 0
+                    },
+                    "stringParam": {}
+                }
+            }
+        },
+        {
+            "name": "ImageTransform",
+            "type": "nh_image_transform",
+            "config": {
+                "keyMaps": {
+                    "intParam": {
+                        "data_convert_rtype": 5,
+                        "cvt_color_code": 3,
+                        "resize_width": 160,
+                        "resize_height": 160
+                    },
+                    "floatParam": {
+                        "data_convert_beta": 0,
+                        "data_convert_alpha": 0.00392
+                    },
+                    "stringParam": {
+                        "transforms": "resize:cvt_color:data_convert"
+                    }
+                }
+            }
+        },
+        {
+            "name": "video_reframe_0",
+            "type": "video_reframe",
+            "config": {
+                "keymaps": {
+                    "intParam": {
+                        "video_reframe_smoothness_level": 2,
+                        "video_reframe_compute_granularity": 0,
+                        "video_reframe_process_step": 1
+                    },
+                    "floatParam": {},
+                    "stringParam": {}
+                }
+            }
+        }
+    ],
+    "links": [
+        {
+            "fromNode": "blit_0",
+            "fromIndex": 0,
+            "toNode": "face_0",
+            "toIndex": 0
+        },
+        {
+            "fromNode": "blit_0",
+            "fromIndex": 0,
+            "toNode": "ImageTransform",
+            "toIndex": 0
+        },
+        {
+            "fromNode": "ImageTransform",
+            "fromIndex": 0,
+            "toNode": "ToTensor",
+            "toIndex": 0
+        },
+        {
+            "fromNode": "ToTensor",
+            "fromIndex": 0,
+            "toNode": "Inference",
+            "toIndex": 0
+        },
+        {
+            "fromNode": "Inference",
+            "fromIndex": 0,
+            "toNode": "StyleTransferPostProcess",
+            "toIndex": 0
+        },
+        {
+            "fromNode": "face_0",
+            "fromIndex": 0,
+            "toNode": "video_reframe_0",
+            "toIndex": 0
+        },
+        {
+            "fromNode": "StyleTransferPostProcess",
+            "fromIndex": 0,
+            "toNode": "video_reframe_0",
+            "toIndex": 1
+        }
+    ],
+    "extra": {
+        "input": [
+            {
+                "name": "src_data_0",
+                "inputType": "IMAGE_BUFFER",
+                "dataSrc": "video_input"
+            }
+        ],
+        "output": [
+            {
+                "name": "video_reframe_0",
+                "algorithmType": "video_reframe",
+                "usage": "VECache"
+            }
+        ],
+        "param": [
+            {
+                "name": "video_reframe_target_aspect_ratio",
+                "node": "video_reframe_0",
+                "key": "video_reframe_target_aspect_ratio",
+                "type": 1
+            },
+            {
+                "name": "display_width",
+                "node": "video_reframe_0",
+                "key": "display_width",
+                "type": 0
+            },
+            {
+                "name": "display_height",
+                "node": "video_reframe_0",
+                "key": "display_height",
+                "type": 0
+            },
+            {
+                "name": "video_sample_frames",
+                "node": "video_reframe_0",
+                "key": "video_sample_frames",
+                "type": 0
+            },
+            {
+                "name": "video_total_frames",
+                "node": "video_reframe_0",
+                "key": "video_total_frames",
+                "type": 0
+            },
+            {
+                "name": "video_reframe_smoothness_level",
+                "node": "video_reframe_0",
+                "key": "video_reframe_smoothness_level",
+                "type": 0
+            }
+        ]
+    },
+    "VEConfig": {
+        "algoType": 1,
+        "pluginID": "uk.co.thefoundry.AlgorithmPlugin",
+        "needGLQueue": false,
+        "generateFrameType": 1,
+        "framesPerSecond": 1,
+        "output": {
+            "cropBBoxes": {
+                "outputMode": 3,
+                "handleTime": 4,
+                "fileName": "by_pts",
+                "nodeName": "video_reframe_0"
+            }
+        }
+    }
+}

@@ -1,0 +1,134 @@
+%YAML 1.1
+--- !Scene &1
+name: !<str> Sticker_empty
+guid: {a: 165857457430214049, b: 8808609368810244518}
+editSceneGuid: {a: 0, b: 0}
+calibrateVer: !<str> V4
+entities:
+  - __class: Entity
+    name: !<str> CameraVignetting
+    guid: {a: 18178088451786029141, b: 11143342056263830206}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: Camera
+        name: !<str> Camera_camera
+        guid: {a: 6290645315170213941, b: 7637304700268965507}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 1, values: [1]}
+        renderOrder: 1
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 0}
+        clearType:
+          __class: CameraClearType
+          value: COLOR
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 1
+        zNear: 0.1000000014901161
+        zFar: 1000
+        inputTexture: {localId: 1, path: share://input.texture}
+        renderTexture: {localId: 1, path: rt/outputTex.rt}
+        isRootCamera: true
+        sortMethod:
+          __class: CameraSortMethod
+          value: SORT_ORDER_AND_RENDERQUEUES
+        rtBackupMode:
+          __class: CameraRTBackupMode
+          value: NEVER
+    layer: 0
+  - __class: Entity
+    name: !<str> EntityVignetting
+    guid: {a: 10829873129352411180, b: 14253329764129015988}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 4}
+      - __class: MeshRenderer
+        name: !<str> ""
+        guid: {a: 7228037404207665721, b: 12623073805231195527}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/vignetting.material}
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: mesh/Quad.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: !<str> SeekModeScript
+    guid: {a: 13637298328157793643, b: 9406307044612472462}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 3}
+      - __class: ScriptComponent
+        name: !<str> ""
+        guid: {a: 1967198360926780920, b: 5074631717907907748}
+        enabled: true
+        path: !<str> lua/SeekModeScript.lua
+        properties:
+          __class: Map
+          __scriptfile: !<str> lua/SeekModeScript.lua
+          __scriptname: !<str> lua::SeekModeScript
+          vignettingIntensity: 1
+        className: !<str> SeekModeScript
+    layer: 0
+visible: true
+config:
+  __class: Map
+msaa:
+  __class: MSAAMode
+  value: NONE
+enableMultiTouch: false
+enableLightMultiPass: false
+pixelLightCount: 4
+resourceRendererType:
+  __class: RendererType
+  value: Auto
+--- !Transform &2
+name: !<str> Camera_transform
+guid: {a: 4272783083263270394, b: 14586552001997408177}
+enabled: true
+localPosition: {x: 0, y: 0, z: 20}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 3}
+children:
+  - {localId: 4}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &3
+name: !<str> ""
+guid: {a: 17961007394493601871, b: 9115863195386652549}
+enabled: true
+localPosition: {x: 0, y: 0, z: -10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 2}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &4
+name: !<str> ""
+guid: {a: 12772560510294057618, b: 16105478319034599565}
+enabled: true
+localPosition: {x: 0, y: 0, z: -10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 2}
+mobility:
+  __class: Mobility
+  value: Dynamic

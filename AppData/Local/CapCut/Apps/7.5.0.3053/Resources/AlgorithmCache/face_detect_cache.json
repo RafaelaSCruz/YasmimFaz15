@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "mode": 2,
+  "nodes": [
+    {
+      "name": "blit_0",
+      "type": "texture_blit",
+      "config": {
+        "keymaps": {
+          "intParam": {},
+          "floatParam": {},
+          "stringParam": {}
+        },
+        "size": {
+          "width": 360,
+          "height": 640
+        }
+      }
+    },
+    {
+      "name": "face_0",
+      "type": "face",
+      "config": {
+        "keymaps": {
+          "intParam": {
+            "face_max_num": 10,
+            "face_detect_mode": 131072,
+            "face_detect_ability": 2431
+          },
+          "floatParam": {
+          },
+          "stringParam": {
+            "face_base_model_key": "tt_fsnew_base_jianying"
+          }
+        }
+      }
+    }
+  ],
+  "links": [
+    {
+      "fromNode": "blit_0",
+      "fromIndex": 0,
+      "toNode": "face_0",
+      "toIndex": 0
+    }
+  ],
+  "extra": {
+    "input": [
+      {
+        "name": "src_data_0",
+        "inputType": "IMAGE_BUFFER",
+        "dataSrc": "video_input"
+      }
+    ],
+    "output": [
+      {
+        "name": "face_0",
+        "algorithmType": "face",
+        "usage": "VECache"
+      }
+    ],
+    "param": [
+      {
+        "name": "face_force_detect",
+        "node": "face_0",
+        "key": "face_force_detect",
+        "type": 0
+      }
+    ]
+  },
+  "VEConfig": {
+    "algoType": 1,
+    "output": {
+      "PassAllResultToClient": {
+        "handleTime": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+2026-03-02 21:33:51.021357 -0300 (0x00000418) [info] args: C:\Users\rafin\AppData\Roaming\4kdownload.com\4K Video Downloader+\4K Video Downloader+\SoftwareUpdate\4db06964-4303-4779-b151-e6a714fc2c10\4kvideodownloaderplus\4kvideodownloaderplus.exe --suinstall=C:/Program Files/4KDownload/4kvideodownloaderplus
+2026-03-02 21:33:51.025372 -0300 (0x00000418) [info] [CrashDump] Starting handler at C:/Users/rafin/AppData/Roaming/4kdownload.com/4K Video Downloader+/4K Video Downloader+/SoftwareUpdate/4db06964-4303-4779-b151-e6a714fc2c10/4kvideodownloaderplus
+2026-03-02 21:33:51.265674 -0300 (0x00000418) [info] [app_Gui] [BaseTranslator] Using locale pt_BR
+2026-03-02 21:33:51.265674 -0300 (0x00001ab8) [info] [http] [HttpRequestsPerformerQueueImpl_000001BCAED14720] Creating queue element:1
+2026-03-02 21:33:51.265674 -0300 (0x00001ab8) [info] [http] [HttpDownloaderImpl_0000000000000001] Start http downloader https://dl.4kdownload.com/app/settings/4kvideodownloaderplus.crash.json
+2026-03-02 21:33:51.271542 -0300 (0x00001ab8) [info] [http] [HttpRequestsPerformerQueueImpl_000001BCAED14720] Queue element:1 was created
+2026-03-02 21:33:51.271542 -0300 (0x00001ab8) [info] [http] [HttpRequestsPerformerQueueImpl_000001BCAED14720] Creating queue element:2
+2026-03-02 21:33:51.271542 -0300 (0x00001ab8) [info] [http] [HttpDownloaderImpl_0000000000000002] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.4.0241&ec=Application&ea=Run&el=Less%20than%2010&ev=3&cprop=%7B%22segment%22%3A7%2C%22start_day%22%3A275%2C%22start_year%22%3A2025%7D&z=11040
+2026-03-02 21:33:51.271542 -0300 (0x00001ab8) [info] [http] [HttpRequestsPerformerQueueImpl_000001BCAED14720] Queue element:2 was created
+2026-03-02 21:33:51.271542 -0300 (0x00001ab8) [info] [http] [HttpRequestsPerformerQueueImpl_000001BCAED14720] Creating queue element:3
+2026-03-02 21:33:51.271542 -0300 (0x00001ab8) [info] [http] [HttpDownloaderImpl_0000000000000003] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.4.0241&ec=Application&ea=Platform&el=windows-64-10.0.26200&cprop=%7B%22platform%22%3A%22windows-64%22%2C%22platform_version%22%3A%2210.0.26200%22%2C%22run_platform%22%3A%22windows-64%22%7D&z=14812
+2026-03-02 21:33:51.271542 -0300 (0x00001ab8) [info] [http] [HttpRequestsPerformerQueueImpl_000001BCAED14720] Queue element:3 was created
+2026-03-02 21:33:51.278358 -0300 (0x00003ed0) [info] [http] [HttpDownloaderImpl_0000000000000004] Start http downloader https://dl.4kdownload.com/app/advertisement/videodownloaderplus.xml
+2026-03-02 21:33:51.278358 -0300 (0x00000418) [info] [http] [HttpDownloaderImpl_0000000000000005] Start http downloader https://dl.4kdownload.com/app/settings/4kvideodownloaderplus.settings.json
+2026-03-02 21:33:51.281702 -0300 (0x00000418) [info] [SoftwareUpdate] [Installer] install update requested
+2026-03-02 21:33:51.281702 -0300 (0x00001ab8) [info] [http] [HttpRequestsPerformerQueueImpl_000001BCAED14720] Creating queue element:4
+2026-03-02 21:33:51.281702 -0300 (0x00001ab8) [info] [http] [HttpDownloaderImpl_0000000000000006] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.4.0241&ec=Update&ea=Started&z=30840
+2026-03-02 21:33:51.283709 -0300 (0x00001ab8) [info] [http] [HttpRequestsPerformerQueueImpl_000001BCAED14720] Queue element:4 was created
+2026-03-02 21:33:51.348608 -0300 (0x00001ab8) [info] [http] [HttpRequestsPerformerQueueImpl_000001BCAED14720] Creating queue element:5
+2026-03-02 21:33:51.348608 -0300 (0x00001ab8) [info] [http] [HttpDownloaderImpl_0000000000000007] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.4.0241&ec=Application&ea=Resolution&el=1366x768&z=25724
+2026-03-02 21:33:51.348608 -0300 (0x00001ab8) [info] [http] [HttpRequestsPerformerQueueImpl_000001BCAED14720] Queue element:5 was created
+2026-03-02 21:33:51.348608 -0300 (0x00001ab8) [info] [http] [HttpRequestsPerformerQueueImpl_000001BCAED14720] Creating queue element:6
+2026-03-02 21:33:51.350615 -0300 (0x00001ab8) [info] [http] [HttpDownloaderImpl_0000000000000008] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.4.0241&ec=Application&ea=LogicalDPI&el=96&z=20477
+2026-03-02 21:33:51.350615 -0300 (0x00001ab8) [info] [http] [HttpRequestsPerformerQueueImpl_000001BCAED14720] Queue element:6 was created
+2026-03-02 21:33:51.368459 -0300 (0x00000418) [info] Request to 'https://dl.4kdownload.com/app/settings/4kvideodownloaderplus.settings.json' succeeded
+2026-03-02 21:33:51.368459 -0300 (0x00001ab8) [info] [http] [HttpRequestsPerformerQueueImpl_000001BCAED14720] Creating queue element:7
+2026-03-02 21:33:51.368459 -0300 (0x00001ab8) [info] [http] [HttpDownloaderImpl_0000000000000009] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.4.0241&ec=Request&ea=ConfigDownloadResult&el=https%3A%2F%2Fdl.4kdownload.com%2Fapp%2Fsettings%2F4kvideodownloaderplus.settings.json%20%7C%20succeeded&z=26634
+2026-03-02 21:33:51.368459 -0300 (0x00001ab8) [info] [http] [HttpRequestsPerformerQueueImpl_000001BCAED14720] Queue element:7 was created
+2026-03-02 21:33:51.528391 -0300 (0x000031dc) [info] [NetworkReachability] [Loop_00000024F82FF050] network is reachable
+2026-03-02 21:33:53.349479 -0300 (0x000037e8) [info] [SoftwareUpdate] [Installer] starting
+2026-03-02 21:33:53.349479 -0300 (0x000037e8) [info] [SoftwareUpdate] [Installer] copying from C:/Users/rafin/AppData/Roaming/4kdownload.com/4K Video Downloader+/4K Video Downloader+/SoftwareUpdate/4db06964-4303-4779-b151-e6a714fc2c10/4kvideodownloaderplus to C:/Program Files/4KDownload/4kvideodownloaderplus
+2026-03-02 21:34:03.989530 -0300 (0x00000418) [info] [SoftwareUpdate] [Installer] completed
+2026-03-02 21:34:03.989530 -0300 (0x00000418) [info] [SoftwareUpdate] [Installer] Registry version info updated: DisplayName='4K Video Downloader+' DisplayVersion=25.3.4.0241 Version=19030000 VersionMajor=25 VersionMinor=3
+2026-03-02 21:34:03.991537 -0300 (0x00001ab8) [info] [http] [HttpRequestsPerformerQueueImpl_000001BCAED14720] Creating queue element:8
+2026-03-02 21:34:03.991537 -0300 (0x00001ab8) [info] [http] [HttpDownloaderImpl_000000000000000A] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fdc15bed-acf2-43e6-b54e-2be80f663980&t=event&an=4K%20Video%20Downloader%2B&av=25.3.4.0241&ec=Update&ea=Completed&z=32695
+2026-03-02 21:34:03.991537 -0300 (0x00001ab8) [info] [http] [HttpRequestsPerformerQueueImpl_000001BCAED14720] Queue element:8 was created
+2026-03-02 21:34:03.991537 -0300 (0x00001ab8) [info] [http] [HttpRequestsPerformerQueueImpl_000001BCAED14720] force: element:8 was put to front
+2026-03-02 21:34:04.410720 -0300 (0x00000418) [info] [SoftwareUpdate] [Installer] shell command init: path C:/Program Files/4KDownload/4kvideodownloaderplus, absoluteFilePath C:/Program Files/4KDownload/4kvideodownloaderplus/4kvideodownloaderplus.exe
+2026-03-02 21:34:04.410720 -0300 (0x00000418) [info] [SoftwareUpdate] [Installer] shell command: "C:/Program Files/4KDownload/4kvideodownloaderplus/4kvideodownloaderplus.exe" --suupdated="true"
+2026-03-02 21:34:04.410720 -0300 (0x00000418) [info] [SoftwareUpdate] [Installer] quit requested
+2026-03-02 21:34:04.410720 -0300 (0x00000418) [info] [SoftwareUpdate] [Installer] application about to quit: behavior 0
+2026-03-02 21:34:04.410720 -0300 (0x00000418) [info] [SoftwareUpdate] [Installer] ~Installer: behavior 0
+2026-03-02 21:34:04.410720 -0300 (0x00000418) [info] [SoftwareUpdate] [Installer] run shell commands: "C:/Program Files/4KDownload/4kvideodownloaderplus/4kvideodownloaderplus.exe" --suupdated="true"
+2026-03-02 21:34:14.687117 -0300 (0x00001ab8) [info] [http] [QueueHandlingThread_000001BCAED14720] finishing
+2026-03-02 21:34:14.687117 -0300 (0x00001ab8) [info] [http] [QueueHandlingThread_000001BCAED14720] finished
+2026-03-02 21:34:14.687117 -0300 (0x00002264) [info] [http] [NotificationHandlingThread_000001BCAED14720] finishing
+2026-03-02 21:34:14.687117 -0300 (0x00002264) [info] [http] [NotificationHandlingThread_000001BCAED14720] finished
